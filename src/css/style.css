@@ -1,0 +1,181 @@
+body {
+  position: relative;
+}
+
+.background-header {
+  width: 100%;
+  height: 15.625rem;
+  text-align: center;
+  align-items: center;
+}
+
+.background-header {
+  width: auto;
+  height: auto;
+}
+
+.cabecalho {
+  text-align: center;
+}
+
+.cabecalho img {
+  position: absolute;
+  top: 5%;
+  left: 45%;
+}
+
+.cabecalho h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.cabecalho p {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.download {
+  width: 11rem;
+  height: 2.5rem;
+  font-weight: 600;
+  margin: 10px;
+  letter-spacing: 0.1rem;
+  border-radius: 2rem;
+  color: #ffff;
+  border-style: none;
+  font-size: 0.735rem;
+  cursor: pointer;
+}
+
+.download.ios {
+  background-color: var(--strongcyan);
+  border-style: none;
+  border-bottom: 0.2rem solid hsl(170, 68%, 37%);
+  box-shadow: 0px 10px 13px -7px #26baa4,
+    0px 1px 19px 1px rgba(45, 45, 45, 0.32);
+}
+
+.download.mac {
+  background-color: var(--lightblue);
+  border-style: none;
+  border-bottom: 0.2rem solid hsl(233, 65%, 58%);
+  box-shadow: 0px 10px 13px -7px #6173ff,
+    0px 1px 19px 1px rgba(45, 45, 45, 0.32);
+}
+
+.snippets {
+  text-align: center;
+  margin: 110px 0 105px 0;
+}
+
+.snippets h2 {
+  margin-bottom: 20px;
+}
+
+.snippets p {
+  margin-bottom: 57px;
+  width: 700px;
+}
+
+.snippets .services img {
+  margin-right: 73px;
+}
+
+.snippets .services h3 {
+  margin-bottom: 17px;
+}
+
+.snippets .services p {
+  margin-bottom: 50px;
+  width: 350px;
+}
+
+.clipboard {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.clipboard h2 {
+  margin-bottom: 20px;
+}
+
+.clipboard p {
+margin-bottom: 65px;
+width: 700px;
+}
+
+.workflow {
+  padding: 3rem;
+}
+
+.workflow .introduction h3 {
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  margin-top: 60px;
+}
+
+.workflow .introduction p {
+  padding-bottom: 1rem;
+  max-width: 40rem;
+  text-align: center;
+}
+
+.workflow .aplication {
+  display: ;
+  position: relative;
+  grid-template-columns: minmax(100px, • 200px) 1fr 1fr;
+}
+
+.workflow .companies {
+  display: grid;
+  grid-template-columns: minmax(100px, • 200px) 1fr 1fr;
+  margin-top: 150px;
+}
+
+.service-download {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
+}
+
+.service-download h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.service-download p {
+  margin-bottom: 35px;
+  text-align: center;
+  width: 680px;
+}
+
+.service-download button{
+margin-bottom: 35px;
+}
+
+.rodape {
+  display: flex;
+  padding: 50px 120px;
+  width: 100%;
+  height: auto;
+  background-color: hsl(220, 18%, 97%);
+}
+.rodape .logo-2 {
+  width: 43px;
+  height: 43px;
+}
+
+.rodape .redes-sociais li {
+}
+
+.rodape .redes-sociais img {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  right: 0%;
+  float: right;
+}
