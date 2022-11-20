@@ -1,4 +1,41 @@
+:root{
+--strongcyan: hsl(171, 66%, 44%);
+--lightblue: hsl(233, 100%, 69%);
+
+--darkgrayishblue: hsl(210, 10%, 33%);
+--grayishblue: hsl(201, 11%, 66%);
+}
+
+html{
+font-size: 18px;
+}
+
 *{
-padding: 0;
 margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+ul{
+list-style: none;}
+
+@media(max-width: 1440px){
+    
+}
+
+@media(max-width: 375px){
+    
+}
+
+p{
+color: var(--grayishblue);
+}
+
+h3, h2, h1{
+color: var(--darkgrayishblue);
+}
+
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: normal;
 }
