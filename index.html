@@ -4,71 +4,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/css/style.css">
-    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/css/style.css" type="text/css">
+    <link rel="stylesheet" href="src/css/reset.css" type="text/css">
 
         <title>ClipBoard | Front-Mentor</title>
     </head>
 
-    <div>
         <div class="container"></div>
-
-            <img src="src/images/logo.svg" alt="logo do site">
-            <h1>A history of everything you copy</h1>
-            <p> Clipboard allows you to track and organize evergthing gou copy. Instantly
-            access gour clipboard on all gour devices.</p>
-
-            <button class="download ios">Download for IOS</button>
-            <button class="download mac">Download for Mac</button>
-
-            <h2>Keep track of your snippets</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam modi velit laborum vitae quidem, fuga voluptatem perferendis.</p>
-            
-            <div class="">
-                <img src="src/images/image-computer.png" alt="computer image">         
-                <ul>
-                    <li><h3>Quick search</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p></li>
-
-                    <li><h3>Icloud Sync</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti</p></li>
-
-                    <li><h3>Complete history</h3><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p></li>
-                </ul>
+            <div class="background-header"><img src="src/images/bg-header-desktop.png">
             </div>
 
-            <h2>Access Clipboard anywhere</h2>
-            <p>Whether you're on the go, or at your computer. you can access all your Clipboard snippets in a few simple clicks.</p>
-            <img src="src/images/image-devices.png" alt="devices image">
+            <div class="cabecalho">
+                <img src="src/images/logo.svg" alt="logo do site" class="logo-1">
+                <h1>A history of everything you copy</h1>
+                <p> Clipboard allows you to track and organize evergthing gou copy. Instantly
+                access gour clipboard on all gour devices.</p>
 
-            <h3>Supercharge your workflow</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, ipsa laboriosam!</p>
+                <button class="download ios">Download for IOS</button>
+                <button class="download mac">Download for Mac</button>
+            </div>
+            <div class="snippets">    
+                <h2>Keep track of your snippets</h2>
+                <p>Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.</p>
+            
 
-            <ul>
-                <li><img src="src/images/icon-blacklist.svg" alt="Create blacklist"><h3>Create blacklist</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></li>
-                
-                <li><img src="src/images/icon-text.svg" alt="plain text snippets"><h3>Plain text snippets</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></li>
+                <div class="services">
+                    <img src="src/images/image-computer.png" alt="computer image">         
+                    <ul>
+                        <li><h3>Quick search</h3>
+                        <p>Easily search your snippets by content, category, web address, application, and more.</p></li>
 
-                <li><img src="src/images/icon-preview.svg" alt="sneak preview"> <h3>Sneak preview</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></li>
+                        <li><h3>Icloud Sync</h3>
+                        <p>Instantlty saves and syncs snippets across all your devices.</p></li>
 
-            </ul>
+                        <li><h3>Complete history</h3><p>Retrieve any snippets from the first moment you started using the app.</p></li>
+                    </ul>
+                </div>
+            </div>    
+            <div class="clipboard">
+                <h2>Access Clipboard anywhere</h2>
+                <p>Whether you're on the go, or at your computer. you can access all your Clipboard snippets in a few simple clicks.</p>
+                <img src="src/images/image-devices.png" alt="devices image">
+            </div>
 
-            <ul>
-                <li><img src="src/images/logo-google.png" alt="Google"></li>
-                <li><img src="src/images/logo-ibm.png" alt="IBM"></li>
-                <li><img src="src/images/logo-microsoft.png" alt="Microsoft"></li>
-                <li><img src="src/images/logo-hp.png" alt="Hewlett Packard"></li>
-                <li><img src="src/images/logo-vector-graphics.png" alt="Vector Graphics"></li>
-            </ul>
+            <div class="workflow">
+                <div class="introduction">      
+                    <h3>Supercharge your workflow</h3>
+                    <p>We've got the tools to boost your productivity.</p>
+                </div>
 
-            <h1>ClipBoard for IOS and Mac OS</h1>
-            <p> Available for free on the App Store. Download for Mac or iOS, sync with ICloud and you're ready to start adding to your clipboard.</p>
+                <div class="aplication">
+                    <ul>
+                        <li><img src="src/images/icon-blacklist.svg" alt="Create blacklist"><h3>Create blacklist</h3><p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p></li>
 
-            <button class="download ios">Download for IOS</button>
-            <button class="download mac">Download for Mac</button>
+                        <li><img src="src/images/icon-text.svg" alt="plain text snippets"><h3>Plain text snippets</h3><p>Remove unwanted formatting fram copied text for a consistent look.</p></li>
 
-            <footer>
-                <a href="#"><img src="src/images/logo.svg" alt="logo" class="logo"></a>
+                        <li><img src="src/images/icon-preview.svg" alt="sneak preview"> <h3>Sneak preview</h3><p>Quick preview of all snippets on your Clipboard for easy access.</p></li>
+                    </ul>
+                </div>
+
+                <div class="companies">
+                    <ul>
+                        <li><img src="src/images/logo-google.png" alt="Google"></li>
+                        <li><img src="src/images/logo-ibm.png" alt="IBM"></li>
+                        <li><img src="src/images/logo-microsoft.png" alt="Microsoft"></li>
+                        <li><img src="src/images/logo-hp.png" alt="Hewlett Packard"></li>
+                        <li><img src="src/images/logo-vector-graphics.png" alt="Vector Graphics"></li>
+                    </ul>
+                </div>    
+            </div>
+            
+            <div class="service-download">
+                <h2>ClipBoard for IOS and Mac OS</h2>
+                <p>Available for free on the App Store. Download for Mac or iOS, sync with ICloud and you're ready to start adding to your clipboard.</p>
+
+                <button class="download ios">Download for IOS</button>
+                <button class="download mac">Download for Mac</button>
+            </div>
+
+            <footer class="rodape">
+                <a href="#"><img src="src/images/logo.svg" alt="logo" class="logo-2"></a>
 
                 <ul>
                     <li><a href="#">FAQ's</a></li>
